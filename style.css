@@ -215,7 +215,7 @@
             padding-left: 24px;
             transition: color 0.3s ease;
         }
-
+/*
         .hero-meta {
             display: flex;
             flex-wrap: wrap;
@@ -234,7 +234,7 @@
         .hero-meta span {
             display: inline-flex;
             align-items: center;
-        }
+        }  */
 
         /* ===== MAIN CONTENT ===== */
         .main-content {
