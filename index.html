@@ -106,6 +106,71 @@
             display: inline-block;
         }
 
+         /* ---------- Hero1 / Header ---------- */
+        .hero1 {
+            text-align: center;
+            padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+            background: linear-gradient(145deg, #f4f9f4 0%, #e6f0e6 100%);
+            border-radius: 20px;
+            /* margin-bottom: 2.5rem; */
+            border: 1px solid #dce8dc;
+        }
+
+        .hero1-image {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #b8860b;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+            margin-bottom: 1.2rem;
+            background: #fefefe;
+            transition: transform 0.2s ease;
+        }
+
+        .hero1-image:hover {
+            transform: scale(1.02);
+        }
+
+        .hero1-tag {
+            display: inline-block;
+            background: #2d6a4f;
+            color: #fff;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 0.25rem 0.9rem;
+            border-radius: 30px;
+            margin-bottom: 0.8rem;
+        }
+
+        .hero1 h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 2.4rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #1a3a2b;
+            letter-spacing: -0.01em;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero1 h1 span {
+            color: #b8860b;
+        }
+
+        .hero1 .subhead {
+            font-size: 0.90rem;
+            font-weight: 400;
+            color: #2d4a3a;
+            max-width: 600px;
+            margin: 0.5rem auto 1.2rem;
+            border-top: 2px solid #b8860b;
+            border-bottom: 2px solid #b8860b;
+            padding: 0.6rem 0;
+            display: inline-block;
+        }
+
         .byline {
             display: flex;
             justify-content: center;
@@ -223,14 +288,9 @@
         }
 
       
-
-
-
-
-
-
-      
-
+header.hero1 {
+    display: none;
+}
         /* ---------- Responsive ---------- */
         @media (max-width: 640px) {
             .container {
@@ -272,6 +332,10 @@
             .social-icon {
                 width: 19px;
                 height: 19px;
+            }
+
+            header.hero1 {
+                display: block;
             }
         }
 
@@ -388,6 +452,13 @@
             </div>
 
         </header>
+        <br>
+<header class="hero1">
 
+    <h2>About Me</h2>
+        <section id="intro">
+                <p style="text-align: center;">Harisharan Devgan, born on 25 August 1974, is an Indian <strong>innovative farmer</strong>, entrepreneur and emerging public leader recognized for his contributions to organic farming since 2001 in Andhra Pradesh. He created innovative methods for large-scale organic pomegranate cultivation, leading to honors such as <strong>"Organic Farmer of the Year"</strong> and <strong>"Entrepreneur of the Year"</strong> in 2017. As a committed <strong>social worker</strong>, he educates rural farmers about sustainable practices, financial management, and soil health. <br>Increasingly seen as a <strong>political leader</strong>, Harisharan advocates for agrarian rights and policy reforms, working to connect farming communities with policymakers. His efforts demonstrate a strong dedication to sustainable development, rural empowerment, and national progress.</p>
+            </section>
+    </header>
 
 </body></html>
